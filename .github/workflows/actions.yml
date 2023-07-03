@@ -1,4 +1,4 @@
-ame: actions
+name: actions
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
       matrix:
         os: [ubuntu-22.04, macos-12]
         gcc_version: [11, 12]
-        compiler: ['make', 'cmake']
+        compiler: ['make']
 
     steps:
     - uses: actions/checkout@v3
@@ -35,16 +35,16 @@ jobs:
         make
       shell: bash
 
-    - name: Compile using cmake
-      if: matrix.compiler == 'cmake'
-      run: |
-        cmake ./ && cmake --build ./
-      shell: bash
-
     - name: Run
       run: |
           cd testing
-          ../packmol < water_box.inp
-          ../packmol < ieee_signaling.inp
+          ../src/stride pdb1fmc.pdb > pdb1fmc.out
+          ../src/stride pdb1mjh.pdb > pdb1mjh.out
+          ../src/stride pdb1res.pdb > pdb1res.out
+          ../src/stride pdb1btm.pdb > pdb1btm.out
+          diff pdb1fmc.out pdb1fmc_original.out
+          diff pdb1mjh.out pdb1mjh_original.out
+          diff pdb1res.out pdb1res_original.out
+          diff pdb1btm.out pdb1btm_original.out
           cd ..
       shell: bash
