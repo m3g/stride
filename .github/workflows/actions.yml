@@ -22,17 +22,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - uses: awvwgk/setup-fortran@main
-      id: setup-fortran
-      with:
-        compiler: gcc
-        version: ${{ matrix.gcc_version }}
 
     - name: Compile using make
       if: matrix.compiler == 'make'
       run: |
-        ./configure
+        cd src
         make
+        cd ..
       shell: bash
 
     - name: Run
