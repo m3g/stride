@@ -39,7 +39,7 @@ jobs:
           ../src/stride pdb1res.pdb > pdb1res.out
           ../src/stride pdb2btm.pdb > pdb2btm.out
           diff pdb1fmc.out pdb1fmc_original.out
-          diff pdb1mjh.out pdb1fmc_original.out
+          diff pdb1mjh.out pdb1mjh_original.out
           diff pdb1res.out pdb1res_original.out
           diff pdb2btm.out pdb2btm_original.out
           cd ..
