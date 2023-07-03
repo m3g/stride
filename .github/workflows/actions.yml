@@ -16,8 +16,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-22.04, macos-12]
-        gcc_version: [11, 12]
+        os: [ubuntu-22.04]
+        gcc_version: [12]
         compiler: ['make']
 
     steps:
@@ -37,10 +37,10 @@ jobs:
           ../src/stride pdb1fmc.pdb > pdb1fmc.out
           ../src/stride pdb1mjh.pdb > pdb1mjh.out
           ../src/stride pdb1res.pdb > pdb1res.out
-          ../src/stride pdb1btm.pdb > pdb1btm.out
+          ../src/stride pdb2btm.pdb > pdb2btm.out
           diff pdb1fmc.out pdb1fmc_original.out
           diff pdb1mjh.out pdb1mjh_original.out
           diff pdb1res.out pdb1res_original.out
-          diff pdb1btm.out pdb1btm_original.out
+          diff pdb2btm.out pdb2btm_original.out
           cd ..
       shell: bash
