@@ -1,0 +1,79 @@
+REM  --------------------------------------------------------------------  1RES
+REM                                                                        1RES
+REM  STRIDE: Knowledge-based secondary structure assignment                1RES
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         1RES
+REM                                                                        1RES
+REM  Residue accessible surface area calculation                           1RES
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 1RES
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       1RES
+REM                                                                        1RES
+REM  ------------------------ General information -----------------------  1RES
+REM                                                                        1RES
+HDR  SITE-SPECIFIC RECOMBINASE               29-JUN-94   1RES              1RES
+CMP  GAMMA DELTA RESOLVASE (DNA BINDING DOMAIN)                            1RES
+CMP   (NMR, MINIMIZED MEAN STRUCTURE)                                      1RES
+SRC  (ESCHERICHIA COLI)                                                    1RES
+AUT  G.P.MULLEN                                                            1RES
+REM                                                                        1RES
+REM  -------------------- Secondary structure summary -------------------  1RES
+REM                                                                        1RES
+CHN  pdb1res.pdb -                                                         1RES
+REM                                                                        1RES
+REM                .         .         .         .                         1RES
+SEQ  1    GRKRKIDRDAVLNMWQQGLGASHISKTMNIARSTVYKVINESN          43          1RES
+STR       TTTTTT  HHHHHHHH     HHHHHH    HHHHHHHHHH                        1RES
+REM                                                                        1RES
+REM                                                                        1RES
+REM                                                                        1RES
+LOC  AlphaHelix   ASP     9 -      GLN     16 -                            1RES
+LOC  AlphaHelix   SER    22 -      THR     27 -                            1RES
+LOC  AlphaHelix   ARG    32 -      GLU     41 -                            1RES
+LOC  TurnIV       GLY     1 -      ARG      4 -                            1RES
+LOC  TurnIV       LYS     3 -      ILE      6 -                            1RES
+REM                                                                        1RES
+REM  --------------- Detailed secondary structure assignment-------------  1RES
+REM                                                                        1RES
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      1RES
+ASG  GLY -    1    1    T          Turn    360.00    175.58      88.7      1RES
+ASG  ARG -    2    2    T          Turn   -102.24    -73.42     230.6      1RES
+ASG  LYS -    3    3    T          Turn   -112.68     42.25     141.2      1RES
+ASG  ARG -    4    4    T          Turn    -96.55    -79.48     212.0      1RES
+ASG  LYS -    5    5    T          Turn   -114.92     79.87     194.8      1RES
+ASG  ILE -    6    6    T          Turn   -153.93    147.24      82.4      1RES
+ASG  ASP -    7    7    C          Coil    -97.45    157.36     118.1      1RES
+ASG  ARG -    8    8    C          Coil    178.21    -36.07      75.9      1RES
+ASG  ASP -    9    9    H    AlphaHelix    -70.82    -20.32      74.7      1RES
+ASG  ALA -   10   10    H    AlphaHelix    -68.98    -67.82      26.9      1RES
+ASG  VAL -   11   11    H    AlphaHelix    -60.98    -41.27      18.0      1RES
+ASG  LEU -   12   12    H    AlphaHelix    -62.69    -27.58      77.2      1RES
+ASG  ASN -   13   13    H    AlphaHelix    -72.35    -28.62      72.8      1RES
+ASG  MET -   14   14    H    AlphaHelix    -69.47    -52.41      19.3      1RES
+ASG  TRP -   15   15    H    AlphaHelix    -71.96    -39.54      63.4      1RES
+ASG  GLN -   16   16    H    AlphaHelix    -68.69    -10.77     136.3      1RES
+ASG  GLN -   17   17    C          Coil    -99.73      1.75     141.4      1RES
+ASG  GLY -   18   18    C          Coil     85.51     65.28      68.9      1RES
+ASG  LEU -   19   19    C          Coil   -122.67   -170.16      45.2      1RES
+ASG  GLY -   20   20    C          Coil   -158.78    115.70      37.9      1RES
+ASG  ALA -   21   21    C          Coil     17.90    -73.60      21.0      1RES
+ASG  SER -   22   22    H    AlphaHelix    -47.35    -60.40      75.6      1RES
+ASG  HIS -   23   23    H    AlphaHelix    -67.83    -35.61      99.5      1RES
+ASG  ILE -   24   24    H    AlphaHelix    -68.33    -11.26       0.0      1RES
+ASG  SER -   25   25    H    AlphaHelix   -101.89    -28.69      29.0      1RES
+ASG  LYS -   26   26    H    AlphaHelix    -76.23    -59.32     145.2      1RES
+ASG  THR -   27   27    H    AlphaHelix    -59.75    -46.79      82.4      1RES
+ASG  MET -   28   28    C          Coil   -102.14    100.17      35.3      1RES
+ASG  ASN -   29   29    C          Coil    -49.44     91.77     151.3      1RES
+ASG  ILE -   30   30    C          Coil   -167.65    142.07      39.0      1RES
+ASG  ALA -   31   31    C          Coil    -61.16    161.45      50.2      1RES
+ASG  ARG -   32   32    H    AlphaHelix    -64.97    -41.45     156.9      1RES
+ASG  SER -   33   33    H    AlphaHelix    -71.72    -35.53      50.4      1RES
+ASG  THR -   34   34    H    AlphaHelix    -61.39    -33.67      65.1      1RES
+ASG  VAL -   35   35    H    AlphaHelix    -66.27    -34.43       0.0      1RES
+ASG  TYR -   36   36    H    AlphaHelix    -75.03    -13.42     106.4      1RES
+ASG  LYS -   37   37    H    AlphaHelix    -68.93    -40.34     123.4      1RES
+ASG  VAL -   38   38    H    AlphaHelix    -74.22    -55.24      40.3      1RES
+ASG  ILE -   39   39    H    AlphaHelix    -55.19    -33.24      53.7      1RES
+ASG  ASN -   40   40    H    AlphaHelix    -69.59    -40.24     133.1      1RES
+ASG  GLU -   41   41    H    AlphaHelix    -62.50    -31.57     123.1      1RES
+ASG  SER -   42   42    C          Coil     59.53     28.86      99.1      1RES
+ASG  ASN -   43   43    C          Coil    -78.81    360.00     102.0      1RES

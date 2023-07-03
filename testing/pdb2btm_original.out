@@ -1,0 +1,651 @@
+REM  --------------------------------------------------------------------  2BTM
+REM                                                                        2BTM
+REM  STRIDE: Knowledge-based secondary structure assignment                2BTM
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         2BTM
+REM                                                                        2BTM
+REM  Residue accessible surface area calculation                           2BTM
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 2BTM
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       2BTM
+REM                                                                        2BTM
+REM  ------------------------ General information -----------------------  2BTM
+REM                                                                        2BTM
+HDR  ISOMERASE                               04-JAN-99   2BTM              2BTM
+CMP  MOL_ID: 1;                                                            2BTM
+CMP   MOLECULE: TRIOSEPHOSPHATE ISOMERASE;                                 2BTM
+CMP   CHAIN: A, B;                                                         2BTM
+CMP   SYNONYM: TIM;                                                        2BTM
+CMP   EC: 5.3.1.1;                                                         2BTM
+CMP   ENGINEERED: YES;                                                     2BTM
+CMP   MUTATION: YES                                                        2BTM
+SRC  MOL_ID: 1;                                                            2BTM
+SRC   ORGANISM_SCIENTIFIC: BACILLUS STEAROTHERMOPHILUS;                    2BTM
+SRC   EXPRESSION_SYSTEM: ESCHERICHIA COLI                                  2BTM
+AUT  L.F.DELBONI,S.C.MANDE,W.G.J.HOL                                       2BTM
+REM                                                                        2BTM
+REM  -------------------- Secondary structure summary -------------------  2BTM
+REM                                                                        2BTM
+CHN  pdb2btm.pdb A                                                         2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  1    RKPIIAGNWKMNGTLAEAVQFVEDVKGHVPPADEVISVVCAPFLFLDRLV   50          2BTM
+STR          EEEEETTBT  HHHHHHHHHHHHTTT TTTTTEEEEE  GGGHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  51   QAADGTDLKIGAQTMHFADQGAYTGEVSPVMLKDLGVTYVILGHSERRQM  100          2BTM
+STR       HHHTTT EEEEE        BTTTTT  HHHHHHH   EEEETTHHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  101  FAETDETVNKKVLAAFTRGLIPIICCGESLEEREAGQTNAVVASQVEKAL  150          2BTM
+STR       H   HHHHHHHHHHHHHH  EEEEEE   HHHHHH HHHHHHHHHHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  151  AGLTPEQVKQAVIAYEPIWAIGTGKSSTPEDANSVCGHIRSVVSRLFGPE  200          2BTM
+STR       TTT HHHHHH EEEE  GGGTTT     HHHHHHHHHHHHHHHHHHH HH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  201  AAEAIRIQYGGSVKPDNIRDFLAQQQIDGALVGGASLEPASFLQLVEAGR  250          2BTM
+STR       HHHH EEEEETTTTTTHHHHHHHTTTT EEEE GGG  HHHHHHHHHHH                2BTM
+REM                                                                        2BTM
+CHN  pdb2btm.pdb B                                                         2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  1    RKPIIAGNWKMNGTLAEAVQFVEDVKGHVPPADEVISVVCAPFLFLDRLV   50          2BTM
+STR          EEEEETTBT  HHHHHHHHHHHHTTT TTTTTEEEEE  GGGHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  51   QAADGTDLKIGAQTMHFADQGAYTGEVSPVMLKDLGVTYVILGHSERRQM  100          2BTM
+STR       HHHTTT  EEEE     TTTBTTTTT  HHHHHHH   EEEETTHHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  101  FAETDETVNKKVLAAFTRGLIPIICCGESLEEREAGQTNAVVASQVEKAL  150          2BTM
+STR       H   HHHHHHHHHHHHHH  EEEEEE   HHHHHH HHHHHHHHHHHHHH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  151  AGLTPEQVKQAVIAYEPIWAIGTGKSSTPEDANSVCGHIRSVVSRLFGPE  200          2BTM
+STR       TTT HHHHHH EEEE  GGGTTT     HHHHHHHHHHHHHHHHHHH HH               2BTM
+REM                                                                        2BTM
+REM                .         .         .         .         .               2BTM
+SEQ  201  AAEAIRIQYGGSVKPDNIRDFLAQQQIDGALVGGASLEPASFLQLVEAGR  250          2BTM
+STR       HHHH EEEEETTTTTTHHHHHHHTTTT EEEE GGG  HHHHHHHHHH                 2BTM
+REM                                                                        2BTM
+REM                                                                        2BTM
+REM                                                                        2BTM
+LOC  AlphaHelix   LEU    15 A      LYS     26 A                            2BTM
+LOC  AlphaHelix   LEU    46 A      ALA     53 A                            2BTM
+LOC  AlphaHelix   PRO    79 A      LEU     85 A                            2BTM
+LOC  AlphaHelix   SER    95 A      PHE    101 A                            2BTM
+LOC  AlphaHelix   ASP   105 A      ARG    118 A                            2BTM
+LOC  AlphaHelix   LEU   130 A      ALA    135 A                            2BTM
+LOC  AlphaHelix   GLN   137 A      LEU    150 A                            2BTM
+LOC  AlphaHelix   PRO   155 A      GLN    160 A                            2BTM
+LOC  AlphaHelix   PRO   179 A      PHE    197 A                            2BTM
+LOC  AlphaHelix   PRO   199 A      ALA    204 A                            2BTM
+LOC  AlphaHelix   ASN   217 A      ALA    223 A                            2BTM
+LOC  AlphaHelix   PRO   239 A      GLY    249 A                            2BTM
+LOC  AlphaHelix   LEU    15 B      LYS     26 B                            2BTM
+LOC  AlphaHelix   LEU    46 B      ALA     53 B                            2BTM
+LOC  AlphaHelix   PRO    79 B      LEU     85 B                            2BTM
+LOC  AlphaHelix   SER    95 B      PHE    101 B                            2BTM
+LOC  AlphaHelix   ASP   105 B      ARG    118 B                            2BTM
+LOC  AlphaHelix   LEU   130 B      ALA    135 B                            2BTM
+LOC  AlphaHelix   GLN   137 B      LEU    150 B                            2BTM
+LOC  AlphaHelix   PRO   155 B      GLN    160 B                            2BTM
+LOC  AlphaHelix   PRO   179 B      PHE    197 B                            2BTM
+LOC  AlphaHelix   PRO   199 B      ALA    204 B                            2BTM
+LOC  AlphaHelix   ASN   217 B      ALA    223 B                            2BTM
+LOC  AlphaHelix   PRO   239 B      ALA    248 B                            2BTM
+LOC  310Helix     PHE    43 A      PHE     45 A                            2BTM
+LOC  310Helix     ILE   168 A      ALA    170 A                            2BTM
+LOC  310Helix     GLY   234 A      SER    236 A                            2BTM
+LOC  310Helix     PHE    43 B      PHE     45 B                            2BTM
+LOC  310Helix     ILE   168 B      ALA    170 B                            2BTM
+LOC  310Helix     GLY   234 B      SER    236 B                            2BTM
+LOC  Strand       ILE     4 A      ASN      8 A                            2BTM
+LOC  Strand       ILE    36 A      CYS     40 A                            2BTM
+LOC  Strand       LEU    58 A      ALA     62 A                            2BTM
+LOC  Strand       TYR    89 A      LEU     92 A                            2BTM
+LOC  Strand       ILE   121 A      CYS    126 A                            2BTM
+LOC  Strand       VAL   162 A      TYR    165 A                            2BTM
+LOC  Strand       ARG   206 A      GLY    210 A                            2BTM
+LOC  Strand       GLY   229 A      VAL    232 A                            2BTM
+LOC  Strand       ILE     4 B      ASN      8 B                            2BTM
+LOC  Strand       ILE    36 B      CYS     40 B                            2BTM
+LOC  Strand       LYS    59 B      ALA     62 B                            2BTM
+LOC  Strand       TYR    89 B      LEU     92 B                            2BTM
+LOC  Strand       ILE   121 B      CYS    126 B                            2BTM
+LOC  Strand       VAL   162 B      TYR    165 B                            2BTM
+LOC  Strand       ARG   206 B      GLY    210 B                            2BTM
+LOC  Strand       GLY   229 B      VAL    232 B                            2BTM
+LOC  TurnIV       TRP     9 A      ASN     12 A                            2BTM
+LOC  TurnI        LYS    26 A      VAL     29 A                            2BTM
+LOC  TurnI        PRO    31 A      GLU     34 A                            2BTM
+LOC  TurnIV       ALA    32 A      VAL     35 A                            2BTM
+LOC  TurnII       ALA    53 A      THR     56 A                            2BTM
+LOC  TurnII       TYR    73 A      GLU     76 A                            2BTM
+LOC  TurnIV       ILE    91 A      HIS     94 A                            2BTM
+LOC  TurnII       LEU   150 A      LEU    153 A                            2BTM
+LOC  TurnII       ALA   170 A      THR    173 A                            2BTM
+LOC  TurnIV       GLY   210 A      VAL    213 A                            2BTM
+LOC  TurnI        LYS   214 A      ASN    217 A                            2BTM
+LOC  TurnI        GLN   224 A      ILE    227 A                            2BTM
+LOC  GammaInv     LYS    10 A      ASN     12 A                            2BTM
+LOC  GammaInv     GLY    71 A      TYR     73 A                            2BTM
+LOC  TurnIV       TRP     9 B      ASN     12 B                            2BTM
+LOC  TurnI        LYS    26 B      VAL     29 B                            2BTM
+LOC  TurnI        PRO    31 B      GLU     34 B                            2BTM
+LOC  TurnI        ALA    32 B      VAL     35 B                            2BTM
+LOC  TurnII       ALA    53 B      THR     56 B                            2BTM
+LOC  TurnIV       ALA    68 B      GLY     71 B                            2BTM
+LOC  TurnII       TYR    73 B      GLU     76 B                            2BTM
+LOC  TurnIV       ILE    91 B      HIS     94 B                            2BTM
+LOC  TurnII       LEU   150 B      LEU    153 B                            2BTM
+LOC  TurnII       ALA   170 B      THR    173 B                            2BTM
+LOC  TurnIV       GLY   210 B      VAL    213 B                            2BTM
+LOC  TurnI        LYS   214 B      ASN    217 B                            2BTM
+LOC  TurnI        GLN   224 B      ILE    227 B                            2BTM
+LOC  GammaInv     LYS    10 B      ASN     12 B                            2BTM
+LOC  GammaInv     GLY    71 B      TYR     73 B                            2BTM
+REM                                                                        2BTM
+REM  --------------- Detailed secondary structure assignment-------------  2BTM
+REM                                                                        2BTM
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      2BTM
+ASG  ARG A    1    1    C          Coil    360.00    117.85     126.7      2BTM
+ASG  LYS A    2    2    C          Coil    -74.74    130.13      73.2      2BTM
+ASG  PRO A    3    3    C          Coil    -67.35    154.59      27.3      2BTM
+ASG  ILE A    4    4    E        Strand   -141.79    122.64       0.0      2BTM
+ASG  ILE A    5    5    E        Strand   -114.95    117.72       0.2      2BTM
+ASG  ALA A    6    6    E        Strand   -116.17    130.33       0.0      2BTM
+ASG  GLY A    7    7    E        Strand    -97.09    128.35       0.2      2BTM
+ASG  ASN A    8    8    E        Strand   -110.28     96.21       0.8      2BTM
+ASG  TRP A    9    9    T          Turn    -65.86    -16.16      10.2      2BTM
+ASG  LYS A   10   10    T          Turn     55.33   -147.84      15.2      2BTM
+ASG  MET A   11   11    B        Bridge    -88.98     71.87       0.0      2BTM
+ASG  ASN A   12   12    T          Turn   -137.19    156.65      25.0      2BTM
+ASG  GLY A   13   13    C          Coil     86.80    170.16      30.5      2BTM
+ASG  THR A   14   14    C          Coil   -125.65    163.98      24.1      2BTM
+ASG  LEU A   15   15    H    AlphaHelix    -52.69    -50.23      11.0      2BTM
+ASG  ALA A   16   16    H    AlphaHelix    -55.49    -50.54      69.5      2BTM
+ASG  GLU A   17   17    H    AlphaHelix    -60.96    -41.68     124.1      2BTM
+ASG  ALA A   18   18    H    AlphaHelix    -60.96    -41.74       3.5      2BTM
+ASG  VAL A   19   19    H    AlphaHelix    -67.70    -42.54      38.9      2BTM
+ASG  GLN A   20   20    H    AlphaHelix    -62.59    -41.23     105.2      2BTM
+ASG  PHE A   21   21    H    AlphaHelix    -56.67    -49.18      10.0      2BTM
+ASG  VAL A   22   22    H    AlphaHelix    -64.61    -46.35       0.4      2BTM
+ASG  GLU A   23   23    H    AlphaHelix    -57.94    -39.90      81.7      2BTM
+ASG  ASP A   24   24    H    AlphaHelix    -72.67    -29.76      75.9      2BTM
+ASG  VAL A   25   25    H    AlphaHelix   -101.84    -36.87       0.2      2BTM
+ASG  LYS A   26   26    H    AlphaHelix    -43.88    -41.45      47.0      2BTM
+ASG  GLY A   27   27    T          Turn    -87.22     -2.68      58.7      2BTM
+ASG  HIS A   28   28    T          Turn   -116.95      8.34     127.2      2BTM
+ASG  VAL A   29   29    T          Turn    -76.04    149.52      11.4      2BTM
+ASG  PRO A   30   30    C          Coil    -58.97    164.61       0.2      2BTM
+ASG  PRO A   31   31    T          Turn    -62.40    141.54      38.9      2BTM
+ASG  ALA A   32   32    T          Turn    -58.74    -34.79      22.9      2BTM
+ASG  ASP A   33   33    T          Turn    -69.99    -14.64     130.6      2BTM
+ASG  GLU A   34   34    T          Turn    -95.33    -50.29      80.7      2BTM
+ASG  VAL A   35   35    T          Turn   -143.05    141.37       0.0      2BTM
+ASG  ILE A   36   36    E        Strand    -92.78    113.36       7.0      2BTM
+ASG  SER A   37   37    E        Strand   -102.03    118.00       0.0      2BTM
+ASG  VAL A   38   38    E        Strand   -125.25    140.92       0.0      2BTM
+ASG  VAL A   39   39    E        Strand   -123.79    116.99       0.0      2BTM
+ASG  CYS A   40   40    E        Strand   -103.63    105.79       0.0      2BTM
+ASG  ALA A   41   41    C          Coil   -108.20    166.38       0.2      2BTM
+ASG  PRO A   42   42    C          Coil    -57.11    147.69       0.8      2BTM
+ASG  PHE A   43   43    G      310Helix    -47.29    -43.86       9.0      2BTM
+ASG  LEU A   44   44    G      310Helix    -51.79    -35.13       0.9      2BTM
+ASG  PHE A   45   45    G      310Helix    -92.73    -15.40       0.8      2BTM
+ASG  LEU A   46   46    H    AlphaHelix    -45.94    -52.48       0.0      2BTM
+ASG  ASP A   47   47    H    AlphaHelix    -45.70    -62.02       3.4      2BTM
+ASG  ARG A   48   48    H    AlphaHelix    -62.99    -34.70      89.0      2BTM
+ASG  LEU A   49   49    H    AlphaHelix    -65.94    -44.85       0.0      2BTM
+ASG  VAL A   50   50    H    AlphaHelix    -59.36    -45.26      24.0      2BTM
+ASG  GLN A   51   51    H    AlphaHelix    -62.36    -43.71     108.6      2BTM
+ASG  ALA A   52   52    H    AlphaHelix    -68.81    -37.79      15.5      2BTM
+ASG  ALA A   53   53    H    AlphaHelix    -82.92    -10.81       5.4      2BTM
+ASG  ASP A   54   54    T          Turn    -53.78    134.31     131.5      2BTM
+ASG  GLY A   55   55    T          Turn     85.16      6.38      79.6      2BTM
+ASG  THR A   56   56    T          Turn   -122.48    178.36      41.7      2BTM
+ASG  ASP A   57   57    C          Coil    -90.25      1.59      64.4      2BTM
+ASG  LEU A   58   58    E        Strand    -84.50    114.34       5.7      2BTM
+ASG  LYS A   59   59    E        Strand    -94.83    148.20      44.4      2BTM
+ASG  ILE A   60   60    E        Strand   -108.40    131.31       7.1      2BTM
+ASG  GLY A   61   61    E        Strand   -123.68    165.40       0.0      2BTM
+ASG  ALA A   62   62    E        Strand   -104.10    160.70       0.0      2BTM
+ASG  GLN A   63   63    C          Coil    -89.78    -10.29       2.5      2BTM
+ASG  THR A   64   64    C          Coil    179.65    178.80       2.8      2BTM
+ASG  MET A   65   65    C          Coil   -171.38    167.81       0.4      2BTM
+ASG  HIS A   66   66    C          Coil    -92.93    173.82       3.2      2BTM
+ASG  PHE A   67   67    C          Coil    -95.27    -21.75      59.9      2BTM
+ASG  ALA A   68   68    C          Coil    -82.51    153.61      19.1      2BTM
+ASG  ASP A   69   69    C          Coil    -73.40    -27.78      55.4      2BTM
+ASG  GLN A   70   70    C          Coil   -171.97    171.38     129.8      2BTM
+ASG  GLY A   71   71    B        Bridge    140.89   -175.28      19.2      2BTM
+ASG  ALA A   72   72    T          Turn    -79.67     69.83      50.3      2BTM
+ASG  TYR A   73   73    T          Turn   -131.45     74.34      57.1      2BTM
+ASG  THR A   74   74    T          Turn    -48.57    130.72       0.0      2BTM
+ASG  GLY A   75   75    T          Turn     87.12    -14.03       4.2      2BTM
+ASG  GLU A   76   76    T          Turn    -88.11    153.17      10.0      2BTM
+ASG  VAL A   77   77    C          Coil   -117.05    130.78       0.7      2BTM
+ASG  SER A   78   78    C          Coil    -92.96    157.74       0.6      2BTM
+ASG  PRO A   79   79    H    AlphaHelix    -60.47    -30.68       0.0      2BTM
+ASG  VAL A   80   80    H    AlphaHelix    -62.68    -47.24      44.7      2BTM
+ASG  MET A   81   81    H    AlphaHelix    -60.04    -40.75       1.8      2BTM
+ASG  LEU A   82   82    H    AlphaHelix    -67.85    -48.46       0.0      2BTM
+ASG  LYS A   83   83    H    AlphaHelix    -58.14    -50.05      89.6      2BTM
+ASG  ASP A   84   84    H    AlphaHelix    -51.51    -41.08      91.4      2BTM
+ASG  LEU A   85   85    H    AlphaHelix    -69.39    -22.43      15.1      2BTM
+ASG  GLY A   86   86    C          Coil    105.94     12.45      36.6      2BTM
+ASG  VAL A   87   87    C          Coil    -76.15    133.74       0.0      2BTM
+ASG  THR A   88   88    C          Coil   -101.70    -37.60      45.4      2BTM
+ASG  TYR A   89   89    E        Strand   -112.83    156.13       7.0      2BTM
+ASG  VAL A   90   90    E        Strand   -148.23    130.74       0.0      2BTM
+ASG  ILE A   91   91    E        Strand    -83.54    136.97       0.2      2BTM
+ASG  LEU A   92   92    E        Strand   -134.08    138.76       0.6      2BTM
+ASG  GLY A   93   93    T          Turn     69.47     27.90       0.5      2BTM
+ASG  HIS A   94   94    T          Turn    -58.44    140.68       1.5      2BTM
+ASG  SER A   95   95    H    AlphaHelix    -51.88    -28.37      17.9      2BTM
+ASG  GLU A   96   96    H    AlphaHelix    -66.86    -37.29      14.0      2BTM
+ASG  ARG A   97   97    H    AlphaHelix    -72.42    -44.19       8.8      2BTM
+ASG  ARG A   98   98    H    AlphaHelix    -60.73    -40.96      43.4      2BTM
+ASG  GLN A   99   99    H    AlphaHelix    -88.28    -26.23      96.7      2BTM
+ASG  MET A  100  100    H    AlphaHelix   -107.76    -26.98      66.4      2BTM
+ASG  PHE A  101  101    H    AlphaHelix   -121.66     29.75      24.1      2BTM
+ASG  ALA A  102  102    C          Coil     63.29     29.20      48.1      2BTM
+ASG  GLU A  103  103    C          Coil    -82.49    119.47      12.0      2BTM
+ASG  THR A  104  104    C          Coil   -114.10    173.96      70.2      2BTM
+ASG  ASP A  105  105    H    AlphaHelix    -61.04    -38.12      38.4      2BTM
+ASG  GLU A  106  106    H    AlphaHelix    -60.37    -47.46      70.7      2BTM
+ASG  THR A  107  107    H    AlphaHelix    -69.82    -36.02      31.5      2BTM
+ASG  VAL A  108  108    H    AlphaHelix    -61.12    -47.30       0.0      2BTM
+ASG  ASN A  109  109    H    AlphaHelix    -57.10    -46.22      32.3      2BTM
+ASG  LYS A  110  110    H    AlphaHelix    -57.59    -36.80      90.4      2BTM
+ASG  LYS A  111  111    H    AlphaHelix    -76.43    -38.40       8.2      2BTM
+ASG  VAL A  112  112    H    AlphaHelix    -58.29    -43.04       0.0      2BTM
+ASG  LEU A  113  113    H    AlphaHelix    -69.24    -41.07      53.1      2BTM
+ASG  ALA A  114  114    H    AlphaHelix    -62.92    -42.44       8.5      2BTM
+ASG  ALA A  115  115    H    AlphaHelix    -57.44    -52.16       0.0      2BTM
+ASG  PHE A  116  116    H    AlphaHelix    -61.87    -41.34      30.9      2BTM
+ASG  THR A  117  117    H    AlphaHelix    -71.84    -13.91      99.6      2BTM
+ASG  ARG A  118  118    H    AlphaHelix   -108.40      1.92      94.0      2BTM
+ASG  GLY A  119  119    C          Coil     83.04     29.35      42.5      2BTM
+ASG  LEU A  120  120    C          Coil   -117.07    142.15       3.2      2BTM
+ASG  ILE A  121  121    E        Strand    -92.99    113.35      48.1      2BTM
+ASG  PRO A  122  122    E        Strand    -81.95    141.20       0.0      2BTM
+ASG  ILE A  123  123    E        Strand   -111.99     97.68       0.0      2BTM
+ASG  ILE A  124  124    E        Strand    -84.70    117.23       4.2      2BTM
+ASG  CYS A  125  125    E        Strand    -91.17    140.29       2.5      2BTM
+ASG  CYS A  126  126    E        Strand   -144.96    161.06       7.4      2BTM
+ASG  GLY A  127  127    C          Coil    166.92    157.74       3.6      2BTM
+ASG  GLU A  128  128    C          Coil   -105.68    155.71       0.0      2BTM
+ASG  SER A  129  129    C          Coil    -80.46    168.76      33.1      2BTM
+ASG  LEU A  130  130    H    AlphaHelix    -58.94    -41.69     117.2      2BTM
+ASG  GLU A  131  131    H    AlphaHelix    -58.82    -57.39      70.0      2BTM
+ASG  GLU A  132  132    H    AlphaHelix    -55.81    -32.35      67.1      2BTM
+ASG  ARG A  133  133    H    AlphaHelix    -70.05    -49.15      62.6      2BTM
+ASG  GLU A  134  134    H    AlphaHelix    -64.55    -18.25      90.2      2BTM
+ASG  ALA A  135  135    H    AlphaHelix   -104.16     22.87      68.2      2BTM
+ASG  GLY A  136  136    C          Coil     48.97     41.53      70.1      2BTM
+ASG  GLN A  137  137    H    AlphaHelix   -115.01      8.75      48.4      2BTM
+ASG  THR A  138  138    H    AlphaHelix    -49.98    -58.10       9.8      2BTM
+ASG  ASN A  139  139    H    AlphaHelix    -60.67    -37.99      68.2      2BTM
+ASG  ALA A  140  140    H    AlphaHelix    -66.38    -55.19      64.0      2BTM
+ASG  VAL A  141  141    H    AlphaHelix    -53.70    -51.15      23.8      2BTM
+ASG  VAL A  142  142    H    AlphaHelix    -63.37    -38.45       0.0      2BTM
+ASG  ALA A  143  143    H    AlphaHelix    -66.29    -36.29      15.4      2BTM
+ASG  SER A  144  144    H    AlphaHelix    -66.11    -44.84      48.1      2BTM
+ASG  GLN A  145  145    H    AlphaHelix    -65.63    -40.63      25.0      2BTM
+ASG  VAL A  146  146    H    AlphaHelix    -67.82    -39.10       3.2      2BTM
+ASG  GLU A  147  147    H    AlphaHelix    -64.38    -54.00      41.6      2BTM
+ASG  LYS A  148  148    H    AlphaHelix    -60.75    -41.03     103.0      2BTM
+ASG  ALA A  149  149    H    AlphaHelix    -63.61    -39.79       0.6      2BTM
+ASG  LEU A  150  150    H    AlphaHelix    -89.33    -14.77       1.0      2BTM
+ASG  ALA A  151  151    T          Turn    -48.19    121.44      47.7      2BTM
+ASG  GLY A  152  152    T          Turn    109.73    -11.10      64.4      2BTM
+ASG  LEU A  153  153    T          Turn    -88.62    164.26      14.9      2BTM
+ASG  THR A  154  154    C          Coil   -100.96    158.95      66.9      2BTM
+ASG  PRO A  155  155    H    AlphaHelix    -56.83    -33.11      66.5      2BTM
+ASG  GLU A  156  156    H    AlphaHelix    -62.61    -41.97      67.2      2BTM
+ASG  GLN A  157  157    H    AlphaHelix    -80.63    -27.56      47.3      2BTM
+ASG  VAL A  158  158    H    AlphaHelix    -62.35    -31.45       0.0      2BTM
+ASG  LYS A  159  159    H    AlphaHelix    -62.30    -32.85      56.2      2BTM
+ASG  GLN A  160  160    H    AlphaHelix    -89.12     -8.38     126.0      2BTM
+ASG  ALA A  161  161    C          Coil    -77.54    161.09       0.0      2BTM
+ASG  VAL A  162  162    E        Strand   -129.08    124.05       0.0      2BTM
+ASG  ILE A  163  163    E        Strand   -104.40    137.16       1.8      2BTM
+ASG  ALA A  164  164    E        Strand   -121.70    105.85       0.0      2BTM
+ASG  TYR A  165  165    E        Strand    -81.42    123.49       0.0      2BTM
+ASG  GLU A  166  166    C          Coil   -136.51    101.51       9.2      2BTM
+ASG  PRO A  167  167    C          Coil    -56.32    118.68       0.0      2BTM
+ASG  ILE A  168  168    G      310Helix    -48.90    -43.87      70.0      2BTM
+ASG  TRP A  169  169    G      310Helix    -62.76    -15.32      59.1      2BTM
+ASG  ALA A  170  170    G      310Helix    -98.67     -9.51       0.0      2BTM
+ASG  ILE A  171  171    T          Turn    -73.34    118.38      24.2      2BTM
+ASG  GLY A  172  172    T          Turn     57.29     13.13      68.6      2BTM
+ASG  THR A  173  173    T          Turn    -93.50    -14.13      82.4      2BTM
+ASG  GLY A  174  174    C          Coil     86.51    -11.03      55.0      2BTM
+ASG  LYS A  175  175    C          Coil   -103.90     94.00      51.3      2BTM
+ASG  SER A  176  176    C          Coil    -91.95    153.91      40.2      2BTM
+ASG  SER A  177  177    C          Coil    -66.53    170.22       5.9      2BTM
+ASG  THR A  178  178    C          Coil    -86.35    149.36      72.6      2BTM
+ASG  PRO A  179  179    H    AlphaHelix    -54.31    -43.42      23.9      2BTM
+ASG  GLU A  180  180    H    AlphaHelix    -57.51    -54.81     116.2      2BTM
+ASG  ASP A  181  181    H    AlphaHelix    -58.33    -49.51      39.5      2BTM
+ASG  ALA A  182  182    H    AlphaHelix    -58.93    -35.34       0.0      2BTM
+ASG  ASN A  183  183    H    AlphaHelix    -66.70    -34.87      38.2      2BTM
+ASG  SER A  184  184    H    AlphaHelix    -66.33    -50.97      70.6      2BTM
+ASG  VAL A  185  185    H    AlphaHelix    -60.62    -45.96       1.6      2BTM
+ASG  CYS A  186  186    H    AlphaHelix    -65.50    -36.32       0.0      2BTM
+ASG  GLY A  187  187    H    AlphaHelix    -62.33    -43.77      14.6      2BTM
+ASG  HIS A  188  188    H    AlphaHelix    -60.32    -46.19      57.2      2BTM
+ASG  ILE A  189  189    H    AlphaHelix    -55.55    -53.42       0.0      2BTM
+ASG  ARG A  190  190    H    AlphaHelix    -54.79    -36.06      15.6      2BTM
+ASG  SER A  191  191    H    AlphaHelix    -65.47    -44.55      72.1      2BTM
+ASG  VAL A  192  192    H    AlphaHelix    -59.23    -42.67      17.8      2BTM
+ASG  VAL A  193  193    H    AlphaHelix    -63.10    -33.50       0.4      2BTM
+ASG  SER A  194  194    H    AlphaHelix    -71.59    -49.87      40.2      2BTM
+ASG  ARG A  195  195    H    AlphaHelix    -61.62    -18.24      90.5      2BTM
+ASG  LEU A  196  196    H    AlphaHelix   -106.26    -34.42      92.5      2BTM
+ASG  PHE A  197  197    H    AlphaHelix   -122.74      9.30      28.7      2BTM
+ASG  GLY A  198  198    C          Coil     84.99    162.18      25.8      2BTM
+ASG  PRO A  199  199    H    AlphaHelix    -65.48    -34.15      92.0      2BTM
+ASG  GLU A  200  200    H    AlphaHelix    -56.56    -38.16      78.8      2BTM
+ASG  ALA A  201  201    H    AlphaHelix    -81.52    -37.09       1.3      2BTM
+ASG  ALA A  202  202    H    AlphaHelix    -65.49    -29.74       3.8      2BTM
+ASG  GLU A  203  203    H    AlphaHelix    -85.69    -16.71      76.6      2BTM
+ASG  ALA A  204  204    H    AlphaHelix    -96.01    -38.61      37.1      2BTM
+ASG  ILE A  205  205    C          Coil    -57.48    136.92       0.0      2BTM
+ASG  ARG A  206  206    E        Strand    -99.63    133.56      25.3      2BTM
+ASG  ILE A  207  207    E        Strand   -118.83    122.21       0.0      2BTM
+ASG  GLN A  208  208    E        Strand   -102.06    160.96       0.0      2BTM
+ASG  TYR A  209  209    E        Strand   -107.60    145.46       0.0      2BTM
+ASG  GLY A  210  210    E        Strand   -143.03    144.32       0.0      2BTM
+ASG  GLY A  211  211    T          Turn    125.02    101.66       4.9      2BTM
+ASG  SER A  212  212    T          Turn     59.56     26.18      11.5      2BTM
+ASG  VAL A  213  213    T          Turn    -70.76    134.34       3.4      2BTM
+ASG  LYS A  214  214    T          Turn   -129.52    165.03      71.6      2BTM
+ASG  PRO A  215  215    T          Turn    -58.63    -31.09      35.8      2BTM
+ASG  ASP A  216  216    T          Turn    -83.87      0.87     133.5      2BTM
+ASG  ASN A  217  217    H    AlphaHelix   -137.49     -5.85      24.3      2BTM
+ASG  ILE A  218  218    H    AlphaHelix    -60.40    -40.18       1.8      2BTM
+ASG  ARG A  219  219    H    AlphaHelix    -60.32    -35.16      56.8      2BTM
+ASG  ASP A  220  220    H    AlphaHelix    -66.37    -26.17      89.5      2BTM
+ASG  PHE A  221  221    H    AlphaHelix    -85.44    -42.63       2.4      2BTM
+ASG  LEU A  222  222    H    AlphaHelix    -64.70    -29.63      33.0      2BTM
+ASG  ALA A  223  223    H    AlphaHelix    -61.76    -36.16      77.7      2BTM
+ASG  GLN A  224  224    T          Turn    -56.91    139.89      44.2      2BTM
+ASG  GLN A  225  225    T          Turn    -65.24    -32.38      65.9      2BTM
+ASG  GLN A  226  226    T          Turn    -88.63     -8.64      46.3      2BTM
+ASG  ILE A  227  227    T          Turn   -104.28    111.77       3.4      2BTM
+ASG  ASP A  228  228    C          Coil    -97.74      9.93      14.0      2BTM
+ASG  GLY A  229  229    E        Strand    162.69   -169.46       0.0      2BTM
+ASG  ALA A  230  230    E        Strand   -145.02    148.11       0.4      2BTM
+ASG  LEU A  231  231    E        Strand   -104.57    112.50       1.3      2BTM
+ASG  VAL A  232  232    E        Strand   -111.48    133.55       1.4      2BTM
+ASG  GLY A  233  233    C          Coil    -96.77    -99.27      17.2      2BTM
+ASG  GLY A  234  234    G      310Helix    -45.82    -42.13      58.1      2BTM
+ASG  ALA A  235  235    G      310Helix    -74.75      6.21      12.2      2BTM
+ASG  SER A  236  236    G      310Helix   -105.99     -7.31       0.0      2BTM
+ASG  LEU A  237  237    C          Coil    -70.10    -34.69      59.7      2BTM
+ASG  GLU A  238  238    C          Coil    -90.35    134.87     131.9      2BTM
+ASG  PRO A  239  239    H    AlphaHelix    -57.09    -48.15      36.1      2BTM
+ASG  ALA A  240  240    H    AlphaHelix    -60.96    -43.90      72.2      2BTM
+ASG  SER A  241  241    H    AlphaHelix    -65.42    -43.91      20.9      2BTM
+ASG  PHE A  242  242    H    AlphaHelix    -59.01    -39.75       0.2      2BTM
+ASG  LEU A  243  243    H    AlphaHelix    -64.79    -35.25      39.8      2BTM
+ASG  GLN A  244  244    H    AlphaHelix    -67.13    -40.11     118.4      2BTM
+ASG  LEU A  245  245    H    AlphaHelix    -60.91    -47.94       0.0      2BTM
+ASG  VAL A  246  246    H    AlphaHelix    -72.41    -26.91       0.0      2BTM
+ASG  GLU A  247  247    H    AlphaHelix    -68.58    -33.38      78.9      2BTM
+ASG  ALA A  248  248    H    AlphaHelix    -63.28    -18.57      37.0      2BTM
+ASG  GLY A  249  249    H    AlphaHelix    -67.14    -32.29      11.0      2BTM
+ASG  ARG A  250  250    C          Coil    -61.80    360.00     150.8      2BTM
+ASG  ARG B    1    1    C          Coil    360.00    119.54     116.9      2BTM
+ASG  LYS B    2    2    C          Coil    -70.91    126.98      74.7      2BTM
+ASG  PRO B    3    3    C          Coil    -65.55    153.43      27.3      2BTM
+ASG  ILE B    4    4    E        Strand   -136.06    119.88       0.0      2BTM
+ASG  ILE B    5    5    E        Strand   -114.94    117.35       0.4      2BTM
+ASG  ALA B    6    6    E        Strand   -113.38    135.86       0.4      2BTM
+ASG  GLY B    7    7    E        Strand   -102.55    125.59       0.4      2BTM
+ASG  ASN B    8    8    E        Strand   -110.68     99.57       1.5      2BTM
+ASG  TRP B    9    9    T          Turn    -70.48    -17.30       9.8      2BTM
+ASG  LYS B   10   10    T          Turn     56.07   -150.32      16.6      2BTM
+ASG  MET B   11   11    B        Bridge    -86.77     66.51       0.0      2BTM
+ASG  ASN B   12   12    T          Turn   -136.31    154.65      29.3      2BTM
+ASG  GLY B   13   13    C          Coil     97.90    169.99      31.0      2BTM
+ASG  THR B   14   14    C          Coil   -130.55    157.63      34.5      2BTM
+ASG  LEU B   15   15    H    AlphaHelix    -48.45    -54.53      11.2      2BTM
+ASG  ALA B   16   16    H    AlphaHelix    -53.35    -46.53      70.3      2BTM
+ASG  GLU B   17   17    H    AlphaHelix    -65.40    -38.80     115.1      2BTM
+ASG  ALA B   18   18    H    AlphaHelix    -62.69    -41.00       2.3      2BTM
+ASG  VAL B   19   19    H    AlphaHelix    -67.71    -44.70      35.9      2BTM
+ASG  GLN B   20   20    H    AlphaHelix    -57.92    -42.54     103.2      2BTM
+ASG  PHE B   21   21    H    AlphaHelix    -55.82    -56.60      10.2      2BTM
+ASG  VAL B   22   22    H    AlphaHelix    -59.44    -39.47       0.0      2BTM
+ASG  GLU B   23   23    H    AlphaHelix    -60.14    -46.10      75.9      2BTM
+ASG  ASP B   24   24    H    AlphaHelix    -75.09    -21.05      79.3      2BTM
+ASG  VAL B   25   25    H    AlphaHelix   -105.62    -40.43       0.2      2BTM
+ASG  LYS B   26   26    H    AlphaHelix    -41.43    -32.97      51.3      2BTM
+ASG  GLY B   27   27    T          Turn    -88.20    -20.99      61.7      2BTM
+ASG  HIS B   28   28    T          Turn   -104.00     13.75     133.1      2BTM
+ASG  VAL B   29   29    T          Turn    -83.88    147.28      13.8      2BTM
+ASG  PRO B   30   30    C          Coil    -57.22    161.48       2.0      2BTM
+ASG  PRO B   31   31    T          Turn    -67.29    142.50      36.9      2BTM
+ASG  ALA B   32   32    T          Turn    -48.47    -36.10      23.8      2BTM
+ASG  ASP B   33   33    T          Turn    -70.91    -15.54     124.4      2BTM
+ASG  GLU B   34   34    T          Turn   -101.34    -36.30      70.9      2BTM
+ASG  VAL B   35   35    T          Turn   -149.74    143.58       0.9      2BTM
+ASG  ILE B   36   36    E        Strand    -94.07    111.61       9.0      2BTM
+ASG  SER B   37   37    E        Strand   -102.21    116.11       1.3      2BTM
+ASG  VAL B   38   38    E        Strand   -126.40    140.05       0.0      2BTM
+ASG  VAL B   39   39    E        Strand   -124.05    115.82       0.0      2BTM
+ASG  CYS B   40   40    E        Strand   -102.19    104.29       0.0      2BTM
+ASG  ALA B   41   41    C          Coil   -105.55    171.31       0.3      2BTM
+ASG  PRO B   42   42    C          Coil    -61.60    147.63       1.0      2BTM
+ASG  PHE B   43   43    G      310Helix    -45.09    -43.11      10.2      2BTM
+ASG  LEU B   44   44    G      310Helix    -57.99    -29.48       0.5      2BTM
+ASG  PHE B   45   45    G      310Helix    -95.58    -15.60       0.0      2BTM
+ASG  LEU B   46   46    H    AlphaHelix    -47.29    -46.68       0.0      2BTM
+ASG  ASP B   47   47    H    AlphaHelix    -53.74    -56.80       2.4      2BTM
+ASG  ARG B   48   48    H    AlphaHelix    -67.45    -35.66      92.5      2BTM
+ASG  LEU B   49   49    H    AlphaHelix    -62.64    -39.69       0.0      2BTM
+ASG  VAL B   50   50    H    AlphaHelix    -69.40    -36.79      22.9      2BTM
+ASG  GLN B   51   51    H    AlphaHelix    -61.40    -53.97     102.0      2BTM
+ASG  ALA B   52   52    H    AlphaHelix    -61.59    -33.05      15.7      2BTM
+ASG  ALA B   53   53    H    AlphaHelix    -88.85     -2.59       6.4      2BTM
+ASG  ASP B   54   54    T          Turn    -57.46    134.23     135.0      2BTM
+ASG  GLY B   55   55    T          Turn     78.75     16.45      79.7      2BTM
+ASG  THR B   56   56    T          Turn   -129.33   -178.25      38.5      2BTM
+ASG  ASP B   57   57    C          Coil    -92.83    -11.46      59.1      2BTM
+ASG  LEU B   58   58    C          Coil    -66.97    124.34       5.1      2BTM
+ASG  LYS B   59   59    E        Strand   -103.20    142.04      62.6      2BTM
+ASG  ILE B   60   60    E        Strand   -103.37    132.03       6.3      2BTM
+ASG  GLY B   61   61    E        Strand   -126.91    165.16       0.0      2BTM
+ASG  ALA B   62   62    E        Strand   -105.85    155.27       0.0      2BTM
+ASG  GLN B   63   63    C          Coil    -88.55     -5.91       2.4      2BTM
+ASG  THR B   64   64    C          Coil   -179.49   -177.90       3.2      2BTM
+ASG  MET B   65   65    C          Coil   -179.17    171.59       0.0      2BTM
+ASG  HIS B   66   66    C          Coil    -96.41    174.71       2.0      2BTM
+ASG  PHE B   67   67    C          Coil    -94.61    -25.78      56.2      2BTM
+ASG  ALA B   68   68    T          Turn    -78.74    154.04      17.9      2BTM
+ASG  ASP B   69   69    T          Turn    -72.34    -27.44      61.4      2BTM
+ASG  GLN B   70   70    T          Turn   -174.85    169.07     126.5      2BTM
+ASG  GLY B   71   71    B        Bridge    145.83   -177.40      18.8      2BTM
+ASG  ALA B   72   72    T          Turn    -77.97     76.62      50.0      2BTM
+ASG  TYR B   73   73    T          Turn   -137.94     71.12      56.7      2BTM
+ASG  THR B   74   74    T          Turn    -47.96    128.11       0.0      2BTM
+ASG  GLY B   75   75    T          Turn     89.74    -16.56       4.4      2BTM
+ASG  GLU B   76   76    T          Turn    -85.61    153.66       9.2      2BTM
+ASG  VAL B   77   77    C          Coil   -115.05    130.94       0.7      2BTM
+ASG  SER B   78   78    C          Coil    -89.76    155.22       1.6      2BTM
+ASG  PRO B   79   79    H    AlphaHelix    -62.33    -30.72       0.0      2BTM
+ASG  VAL B   80   80    H    AlphaHelix    -61.49    -49.33      49.2      2BTM
+ASG  MET B   81   81    H    AlphaHelix    -57.13    -40.99       2.1      2BTM
+ASG  LEU B   82   82    H    AlphaHelix    -69.35    -46.72       0.0      2BTM
+ASG  LYS B   83   83    H    AlphaHelix    -59.08    -50.47      89.5      2BTM
+ASG  ASP B   84   84    H    AlphaHelix    -53.73    -37.92      90.0      2BTM
+ASG  LEU B   85   85    H    AlphaHelix    -70.57    -24.13      15.2      2BTM
+ASG  GLY B   86   86    C          Coil    106.74     10.55      36.7      2BTM
+ASG  VAL B   87   87    C          Coil    -75.67    141.34       0.0      2BTM
+ASG  THR B   88   88    C          Coil   -112.41    -29.64      42.4      2BTM
+ASG  TYR B   89   89    E        Strand   -116.01    158.17      14.4      2BTM
+ASG  VAL B   90   90    E        Strand   -150.10    129.64       0.0      2BTM
+ASG  ILE B   91   91    E        Strand    -83.56    131.49       0.5      2BTM
+ASG  LEU B   92   92    E        Strand   -128.31    139.62       0.2      2BTM
+ASG  GLY B   93   93    T          Turn     68.68     25.14       0.5      2BTM
+ASG  HIS B   94   94    T          Turn    -58.20    137.25       2.7      2BTM
+ASG  SER B   95   95    H    AlphaHelix    -51.86    -31.35      11.3      2BTM
+ASG  GLU B   96   96    H    AlphaHelix    -60.45    -38.18      12.8      2BTM
+ASG  ARG B   97   97    H    AlphaHelix    -81.76    -32.31       8.2      2BTM
+ASG  ARG B   98   98    H    AlphaHelix    -67.11    -32.09      42.3      2BTM
+ASG  GLN B   99   99    H    AlphaHelix    -86.33    -34.90     128.6      2BTM
+ASG  MET B  100  100    H    AlphaHelix   -111.49    -23.83      70.3      2BTM
+ASG  PHE B  101  101    H    AlphaHelix   -118.22     31.33      24.6      2BTM
+ASG  ALA B  102  102    C          Coil     58.37     29.04      47.3      2BTM
+ASG  GLU B  103  103    C          Coil    -76.29    123.39      10.4      2BTM
+ASG  THR B  104  104    C          Coil   -114.82    171.69      65.7      2BTM
+ASG  ASP B  105  105    H    AlphaHelix    -61.70    -36.50      37.2      2BTM
+ASG  GLU B  106  106    H    AlphaHelix    -62.73    -47.42      69.2      2BTM
+ASG  THR B  107  107    H    AlphaHelix    -72.35    -30.21      33.1      2BTM
+ASG  VAL B  108  108    H    AlphaHelix    -65.57    -45.44       0.0      2BTM
+ASG  ASN B  109  109    H    AlphaHelix    -59.90    -45.31      29.5      2BTM
+ASG  LYS B  110  110    H    AlphaHelix    -59.16    -43.59      93.2      2BTM
+ASG  LYS B  111  111    H    AlphaHelix    -66.56    -38.35       7.6      2BTM
+ASG  VAL B  112  112    H    AlphaHelix    -62.38    -43.99       0.0      2BTM
+ASG  LEU B  113  113    H    AlphaHelix    -62.47    -43.72      55.6      2BTM
+ASG  ALA B  114  114    H    AlphaHelix    -61.96    -37.04      10.4      2BTM
+ASG  ALA B  115  115    H    AlphaHelix    -60.36    -52.22       0.0      2BTM
+ASG  PHE B  116  116    H    AlphaHelix    -65.76    -28.85      34.4      2BTM
+ASG  THR B  117  117    H    AlphaHelix    -71.52    -30.83      86.5      2BTM
+ASG  ARG B  118  118    H    AlphaHelix   -104.50     11.20      89.1      2BTM
+ASG  GLY B  119  119    C          Coil     75.39     31.64      43.5      2BTM
+ASG  LEU B  120  120    C          Coil   -115.55    142.12       1.6      2BTM
+ASG  ILE B  121  121    E        Strand    -86.01    123.25      43.5      2BTM
+ASG  PRO B  122  122    E        Strand    -91.27    135.04       0.0      2BTM
+ASG  ILE B  123  123    E        Strand   -107.41     98.65       0.0      2BTM
+ASG  ILE B  124  124    E        Strand    -87.20    120.07       4.8      2BTM
+ASG  CYS B  125  125    E        Strand    -93.07    135.83       2.3      2BTM
+ASG  CYS B  126  126    E        Strand   -141.07    158.26       5.3      2BTM
+ASG  GLY B  127  127    C          Coil    170.63    147.90       3.7      2BTM
+ASG  GLU B  128  128    C          Coil    -93.72    159.68       0.0      2BTM
+ASG  SER B  129  129    C          Coil    -90.34    176.78      26.9      2BTM
+ASG  LEU B  130  130    H    AlphaHelix    -60.89    -50.15      83.7      2BTM
+ASG  GLU B  131  131    H    AlphaHelix    -56.32    -45.88     100.6      2BTM
+ASG  GLU B  132  132    H    AlphaHelix    -64.80    -39.39      57.4      2BTM
+ASG  ARG B  133  133    H    AlphaHelix    -62.46    -48.24      62.5      2BTM
+ASG  GLU B  134  134    H    AlphaHelix    -67.45    -20.78     145.4      2BTM
+ASG  ALA B  135  135    H    AlphaHelix    -91.47      4.22      61.4      2BTM
+ASG  GLY B  136  136    C          Coil     63.67     34.88      66.0      2BTM
+ASG  GLN B  137  137    H    AlphaHelix   -106.78      5.86      92.5      2BTM
+ASG  THR B  138  138    H    AlphaHelix    -44.24    -58.67      10.0      2BTM
+ASG  ASN B  139  139    H    AlphaHelix    -60.57    -38.46      77.7      2BTM
+ASG  ALA B  140  140    H    AlphaHelix    -69.13    -44.33      67.8      2BTM
+ASG  VAL B  141  141    H    AlphaHelix    -61.68    -51.13      22.2      2BTM
+ASG  VAL B  142  142    H    AlphaHelix    -63.78    -35.71       0.0      2BTM
+ASG  ALA B  143  143    H    AlphaHelix    -65.74    -48.07       9.8      2BTM
+ASG  SER B  144  144    H    AlphaHelix    -58.83    -42.74      42.2      2BTM
+ASG  GLN B  145  145    H    AlphaHelix    -67.61    -42.89      24.7      2BTM
+ASG  VAL B  146  146    H    AlphaHelix    -65.69    -41.29       3.1      2BTM
+ASG  GLU B  147  147    H    AlphaHelix    -62.43    -48.76      86.2      2BTM
+ASG  LYS B  148  148    H    AlphaHelix    -68.41    -35.08     109.5      2BTM
+ASG  ALA B  149  149    H    AlphaHelix    -67.77    -43.39       0.8      2BTM
+ASG  LEU B  150  150    H    AlphaHelix    -85.92     -3.62       3.0      2BTM
+ASG  ALA B  151  151    T          Turn    -54.92    123.23      45.4      2BTM
+ASG  GLY B  152  152    T          Turn    101.50     -4.49      67.8      2BTM
+ASG  LEU B  153  153    T          Turn    -90.33    158.89      13.2      2BTM
+ASG  THR B  154  154    C          Coil    -93.98    158.09      68.5      2BTM
+ASG  PRO B  155  155    H    AlphaHelix    -57.51    -35.04      63.9      2BTM
+ASG  GLU B  156  156    H    AlphaHelix    -61.58    -36.55      65.5      2BTM
+ASG  GLN B  157  157    H    AlphaHelix    -75.85    -41.03      55.5      2BTM
+ASG  VAL B  158  158    H    AlphaHelix    -55.51    -34.65       0.0      2BTM
+ASG  LYS B  159  159    H    AlphaHelix    -57.90    -34.34      80.9      2BTM
+ASG  GLN B  160  160    H    AlphaHelix    -90.25    -13.50      60.2      2BTM
+ASG  ALA B  161  161    C          Coil    -69.91    153.06       0.4      2BTM
+ASG  VAL B  162  162    E        Strand   -123.51    124.36       0.2      2BTM
+ASG  ILE B  163  163    E        Strand   -106.38    132.05       4.0      2BTM
+ASG  ALA B  164  164    E        Strand   -114.59    108.92       0.0      2BTM
+ASG  TYR B  165  165    E        Strand    -82.84    118.20       0.0      2BTM
+ASG  GLU B  166  166    C          Coil   -134.48     95.85       9.8      2BTM
+ASG  PRO B  167  167    C          Coil    -56.81    125.82       0.0      2BTM
+ASG  ILE B  168  168    G      310Helix    -53.05    -38.28      38.6      2BTM
+ASG  TRP B  169  169    G      310Helix    -65.92    -11.63      55.1      2BTM
+ASG  ALA B  170  170    G      310Helix    -98.71     -5.34       0.0      2BTM
+ASG  ILE B  171  171    T          Turn    -80.01    116.28      25.8      2BTM
+ASG  GLY B  172  172    T          Turn     56.34     16.30      72.2      2BTM
+ASG  THR B  173  173    T          Turn    -95.29    -15.98      75.3      2BTM
+ASG  GLY B  174  174    C          Coil     88.60     -7.63      55.7      2BTM
+ASG  LYS B  175  175    C          Coil   -107.68    107.84     152.2      2BTM
+ASG  SER B  176  176    C          Coil   -101.22    160.75      43.0      2BTM
+ASG  SER B  177  177    C          Coil    -74.97    156.69       3.2      2BTM
+ASG  THR B  178  178    C          Coil    -75.49    155.05      62.3      2BTM
+ASG  PRO B  179  179    H    AlphaHelix    -56.62    -40.86      25.1      2BTM
+ASG  GLU B  180  180    H    AlphaHelix    -60.46    -50.84     117.0      2BTM
+ASG  ASP B  181  181    H    AlphaHelix    -62.65    -45.96      75.2      2BTM
+ASG  ALA B  182  182    H    AlphaHelix    -62.75    -36.82       0.0      2BTM
+ASG  ASN B  183  183    H    AlphaHelix    -67.63    -37.35      32.6      2BTM
+ASG  SER B  184  184    H    AlphaHelix    -64.85    -47.49      76.7      2BTM
+ASG  VAL B  185  185    H    AlphaHelix    -64.16    -43.10       5.2      2BTM
+ASG  CYS B  186  186    H    AlphaHelix    -65.69    -32.99       0.0      2BTM
+ASG  GLY B  187  187    H    AlphaHelix    -67.26    -38.10      14.0      2BTM
+ASG  HIS B  188  188    H    AlphaHelix    -66.08    -39.27      33.4      2BTM
+ASG  ILE B  189  189    H    AlphaHelix    -64.63    -45.48       0.0      2BTM
+ASG  ARG B  190  190    H    AlphaHelix    -59.92    -41.02      17.2      2BTM
+ASG  SER B  191  191    H    AlphaHelix    -63.89    -38.46      49.1      2BTM
+ASG  VAL B  192  192    H    AlphaHelix    -64.65    -38.26       1.4      2BTM
+ASG  VAL B  193  193    H    AlphaHelix    -67.01    -42.22       0.0      2BTM
+ASG  SER B  194  194    H    AlphaHelix    -61.78    -36.09      41.5      2BTM
+ASG  ARG B  195  195    H    AlphaHelix    -79.13    -18.77     161.3      2BTM
+ASG  LEU B  196  196    H    AlphaHelix    -97.22    -33.99      78.1      2BTM
+ASG  PHE B  197  197    H    AlphaHelix   -127.34      1.70      34.1      2BTM
+ASG  GLY B  198  198    C          Coil     97.49    155.37      23.9      2BTM
+ASG  PRO B  199  199    H    AlphaHelix    -59.08    -28.23      94.1      2BTM
+ASG  GLU B  200  200    H    AlphaHelix    -69.13    -44.89     145.2      2BTM
+ASG  ALA B  201  201    H    AlphaHelix    -66.05    -41.33       0.7      2BTM
+ASG  ALA B  202  202    H    AlphaHelix    -68.76    -26.90       4.2      2BTM
+ASG  GLU B  203  203    H    AlphaHelix    -80.08    -19.12      80.4      2BTM
+ASG  ALA B  204  204    H    AlphaHelix   -100.34    -36.13      37.8      2BTM
+ASG  ILE B  205  205    C          Coil    -58.23    130.76       0.2      2BTM
+ASG  ARG B  206  206    E        Strand    -91.54    130.05      30.5      2BTM
+ASG  ILE B  207  207    E        Strand   -115.45    117.67       0.0      2BTM
+ASG  GLN B  208  208    E        Strand    -96.75    162.16       0.0      2BTM
+ASG  TYR B  209  209    E        Strand   -113.10    145.99       0.2      2BTM
+ASG  GLY B  210  210    E        Strand   -145.52    147.63       0.0      2BTM
+ASG  GLY B  211  211    T          Turn    124.52     92.47       4.3      2BTM
+ASG  SER B  212  212    T          Turn     64.03     34.00      17.0      2BTM
+ASG  VAL B  213  213    T          Turn    -76.56    136.22       4.1      2BTM
+ASG  LYS B  214  214    T          Turn   -130.08    159.74      79.4      2BTM
+ASG  PRO B  215  215    T          Turn    -59.53    -14.76      33.8      2BTM
+ASG  ASP B  216  216    T          Turn    -92.70     -5.73     126.0      2BTM
+ASG  ASN B  217  217    H    AlphaHelix   -132.82      0.37      19.0      2BTM
+ASG  ILE B  218  218    H    AlphaHelix    -60.54    -44.06       2.4      2BTM
+ASG  ARG B  219  219    H    AlphaHelix    -52.82    -40.50      70.6      2BTM
+ASG  ASP B  220  220    H    AlphaHelix    -61.94    -37.03      87.8      2BTM
+ASG  PHE B  221  221    H    AlphaHelix    -77.93    -49.79       3.0      2BTM
+ASG  LEU B  222  222    H    AlphaHelix    -55.96    -34.86      29.0      2BTM
+ASG  ALA B  223  223    H    AlphaHelix    -61.48    -25.64      82.2      2BTM
+ASG  GLN B  224  224    T          Turn    -65.81    142.62      40.7      2BTM
+ASG  GLN B  225  225    T          Turn    -64.99    -34.99      89.5      2BTM
+ASG  GLN B  226  226    T          Turn    -90.35     -8.89      50.7      2BTM
+ASG  ILE B  227  227    T          Turn   -104.44    118.63       3.8      2BTM
+ASG  ASP B  228  228    C          Coil   -103.09      3.32      10.0      2BTM
+ASG  GLY B  229  229    E        Strand    168.73   -174.45       0.0      2BTM
+ASG  ALA B  230  230    E        Strand   -136.35    143.09       0.0      2BTM
+ASG  LEU B  231  231    E        Strand   -103.65    115.50       1.8      2BTM
+ASG  VAL B  232  232    E        Strand   -117.84    123.57       1.4      2BTM
+ASG  GLY B  233  233    C          Coil    -91.03    -99.06      18.4      2BTM
+ASG  GLY B  234  234    G      310Helix    -37.14    -55.20      59.9      2BTM
+ASG  ALA B  235  235    G      310Helix    -71.04      7.35      14.7      2BTM
+ASG  SER B  236  236    G      310Helix   -106.53     -0.63       0.0      2BTM
+ASG  LEU B  237  237    C          Coil    -73.03    -27.91      76.7      2BTM
+ASG  GLU B  238  238    C          Coil   -104.09    135.31      48.1      2BTM
+ASG  PRO B  239  239    H    AlphaHelix    -52.61    -49.16      38.9      2BTM
+ASG  ALA B  240  240    H    AlphaHelix    -58.80    -45.96      70.1      2BTM
+ASG  SER B  241  241    H    AlphaHelix    -60.47    -49.47      21.6      2BTM
+ASG  PHE B  242  242    H    AlphaHelix    -54.86    -44.68       0.2      2BTM
+ASG  LEU B  243  243    H    AlphaHelix    -59.14    -40.61      41.0      2BTM
+ASG  GLN B  244  244    H    AlphaHelix    -64.74    -35.73     113.3      2BTM
+ASG  LEU B  245  245    H    AlphaHelix    -64.66    -58.34       0.6      2BTM
+ASG  VAL B  246  246    H    AlphaHelix    -61.42    -33.02       0.0      2BTM
+ASG  GLU B  247  247    H    AlphaHelix    -59.31    -36.83      81.9      2BTM
+ASG  ALA B  248  248    H    AlphaHelix    -64.21    -16.42      24.5      2BTM
+ASG  GLY B  249  249    C          Coil    -77.46     -5.90      10.8      2BTM
+ASG  ARG B  250  250    C          Coil    -83.56    360.00     152.2      2BTM
