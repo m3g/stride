@@ -10,9 +10,7 @@ From the abstract, STRIDE calculates "protein secondary structure assignments
 form atomic coordinates based on the combined use of hydrogen bond energy and
 statistically derived backbone torsional angle information"
 
-This program also exists as a webservice at
-
-    http://webclu.bio.wzw.tum.de/stride/
+This program also exists as a webservice at [http://webclu.bio.wzw.tum.de/stride/](http://webclu.bio.wzw.tum.de/stride/).
 
 This distribution also includes nsc by Frank Eisenhaber as presented in:
 
