@@ -29,7 +29,7 @@ For more information on how to use stride, refer to doc/stride.doc
 
 This repository is originally a fork of https://github.com/josch/stride, and might
 be modified and updated to serve as the base STRIDE implementation for the 
-ProteinSecondaryStructures.jl Julia package.
+[ProteinSecondaryStructures.jl](https://github.com/m3g/ProteinSecondaryStructures.jl) Julia package.
 
 # References
 
